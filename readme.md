@@ -15,10 +15,24 @@ It is important to know that this repository is not intended to be a step-by-ste
 This guide is intended as a guide, not a course.
 You'll have to research the necessary command syntax on your own, although with AI these days, it's not necessary to spend hours researching, and this guide will be very useful with AI's help.
 
+# Requisitos (para no tener muchos dolores de cabeza :v)
+
+* Conocer comandos basicos de linux.
+
+* ...
+
 # Syllabus
 
 1. Installation (install.md file).
 
-2. Hyprland Window Manager (folder).
+2. Hyprland Window Manager (./1.basicSettings/hyprland.md file).
+ 
+3. controlar Fondo de pantalla con Hyprpaper (./1.basicSettings/hyprpaper.md)
+
+# Information
+
+> Pagina en desarroyo la informacion alguna esta completada, algunos archivos con IA, y no hay buenas especificaciones de como seria la ruta de personalizacion de archlinux.
+
+**Update:** 0.0.2
 
 **Author:** Fravelz
