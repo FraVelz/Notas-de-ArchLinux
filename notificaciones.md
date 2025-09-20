@@ -1,0 +1,120 @@
+¡Perfecto! 🌟
+Esto aclara algo clave: estás distinguiendo correctamente entre
+
+* 🖼 **Bandeja del sistema (tray)** → íconos persistentes de apps en segundo plano
+* 🔔 **Área de notificaciones** → avisos emergentes (pop-ups) cuando pasa algo
+
+---
+
+## 🖼 Bandeja del sistema (tray)
+
+* Es **parte de la barra** (Waybar).
+* Muestra **iconos pequeños permanentes** como Wi-Fi, Bluetooth, volumen, etc.
+* Se añade con el módulo `"tray"` en tu `config.jsonc` de Waybar.
+* No muestra mensajes, solo iconos.
+
+---
+
+## 🔔 Área de notificaciones (notificación daemon)
+
+Waybar **no muestra notificaciones emergentes**.
+Para eso necesitas un **notificación daemon**, que es un pequeño programa que:
+
+* Escucha las notificaciones del sistema (D-Bus)
+* Las muestra como **ventanitas flotantes temporales**
+* Puedes personalizar su estilo y posición
+
+Los más comunes y ligeros en Hyprland/Wayland son:
+
+| Daemon   | Descripción                                        |
+| -------- | -------------------------------------------------- |
+| `mako`   | Muy usado en Wayland, minimalista                  |
+| `swaync` | Notificaciones + centro de notifs (más completo)   |
+| `dunst`  | Clásico, para X11 (no recomendado en Wayland puro) |
+
+---
+
+## ⚙️ Ejemplo rápido con `mako`
+
+```bash
+sudo pacman -S mako
+```
+
+Luego crea su configuración:
+
+```bash
+mkdir -p ~/.config/mako
+nano ~/.config/mako/config
+```
+
+Ejemplo básico:
+
+```
+background-color=#1e1e2e
+text-color=#ffffff
+border-radius=6
+font=JetBrainsMono 10
+default-timeout=5000
+```
+
+Inícialo (puedes ponerlo en tu `hyprland.conf` para que inicie siempre):
+
+```bash
+mako &
+```
+
+Y para probar:
+
+```bash
+notify-send "Hola" "Esto es una notificación"
+```
+
+Aparecerá un pequeño cartel flotante 🔔.
+
+---
+
+📌 En resumen:
+
+* **Tray** = iconos permanentes en Waybar
+* **Área de notificaciones** = pop-ups (usa `mako` o `swaync`)
+
+---
+
+Si quieres, puedo darte un **setup completo minimalista (tray + mako) ya listo para pegar** en tu Arch + Hyprland.
+¿Quieres que lo haga?
+
+
+
+
+
+¡Perfecto, eso lo explica! 🧐
+
+El comando `notify-send` viene del paquete **`libnotify`**, que sirve para enviar notificaciones al daemon (como `mako`).
+
+---
+
+## 🛠 Cómo instalarlo
+
+En Arch Linux simplemente haz:
+
+```bash
+sudo pacman -S libnotify
+```
+
+---
+
+## 📌 Luego prueba
+
+Cuando ya tengas `mako` ejecutándose (`mako &`), haz:
+
+```bash
+notify-send "Hola" "Esto es una notificación"
+```
+
+Debería aparecer un cartel flotante en pantalla 🔔
+
+---
+
+Si quieres, puedo decirte cómo hacer que `mako` **se inicie automáticamente con Hyprland** para no tener que ejecutarlo manualmente.
+¿Quieres que lo haga?
+
