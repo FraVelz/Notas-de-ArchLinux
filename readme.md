@@ -1,38 +1,40 @@
-# Welcome
+# ArchLinux Guía Personal
 
-In this repository you will find:
-1. Arch Linux installation (install.md file).
-2. Concepts for configuring the operating system.
 
-> Note: To replicate my operating system configuration, I will have a repository called config-ArchLinux where all my configurations for the operating system I use (Arch Linux) will be stored.
+Esta guía le ayudará a personalizar completamente su sistema operativo. Abarcará principalmente temas como los archivos de configuración para cada caso, desde la configuración de la terminal, gestor de ventanas, etc., hasta la configuración del inicio y apagado del sistema operativo, y muchas cosas mas.
 
-This will be a guide on how to fully customize your operating system. It will primarily cover topics such as configuration files for each case, from configuring the terminal, windows, etc., to configuring the startup and shutdown of the operating system.
+---
 
-# Important Note
+## Temario 
 
-It is important to know that this repository is not intended to be a step-by-step guide to configuring Arch Linux, but rather to guide new users. It is important to research how things work separately, and the different topics in this guide. You will need to research the specific operation of anything or the specific customization syntax for something on your own.
+0. Instalación: 
+   * 
 
-This guide is intended as a guide, not a course.
-You'll have to research the necessary command syntax on your own, although with AI these days, it's not necessary to spend hours researching, and this guide will be very useful with AI's help.
+1. Configuraciones basicas: 
 
-# Requisitos (para no tener muchos dolores de cabeza :v)
+2. Configuraciones extras: 
 
-* Conocer comandos basicos de linux.
+3. Terminal: 
 
-* ...
+4. Editor de codigo: 
 
-# Syllabus
+información: [Ir a información.](#información)
 
-1. Installation (install.md file).
+---
 
-2. Hyprland Window Manager (./1.basicSettings/hyprland.md file).
- 
-3. controlar Fondo de pantalla con Hyprpaper (./1.basicSettings/hyprpaper.md)
+## Nota importante
 
-# Information
+Es importante saber que este repositorio no pretende ser una guía paso a paso para la configuración de Arch Linux, sino guiar a los nuevos usuarios. Es importante investigar cómo funcionan los elementos por separado y los diferentes temas de esta guía. Deberá investigar el funcionamiento específico de cada elemento o la sintaxis de personalización específica por su cuenta.
 
-> Pagina en desarroyo la informacion alguna esta completada, algunos archivos con IA, y no hay buenas especificaciones de como seria la ruta de personalizacion de archlinux.
+Esta guía es una guía, no un curso. Tendrás que investigar la sintaxis de comando necesaria por tu cuenta, aunque con la IA hoy en día no es necesario pasar horas investigando, y esta guía te será muy útil con la ayuda de la IA.
 
-**Update:** 0.0.2
+---
 
-**Author:** Fravelz
+## Información
+
+> Pagina en desarrollo la información alguna esta completada, algunos archivos con IA, y no hay buenas especificaciones de como seria la ruta de personalización de archlinux.
+
+**Actualización:** 0.0.2
+
+**Autor:** Fravelz
+
