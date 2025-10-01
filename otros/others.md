@@ -1,0 +1,1 @@
+tomar captura de a
