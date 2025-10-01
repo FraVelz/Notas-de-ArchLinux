@@ -10,6 +10,8 @@ Instalación:
 
 * [Ir a Instalar Arch](./0.instalacion/0.instalacion.md)
 
+Futuras actualizaciones...
+
 <!-- 
 * [Instalar 2](./0.Install/1.install.md)
 * [Comandos](./0.Install/2.commands.md)
