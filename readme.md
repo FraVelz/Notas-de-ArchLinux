@@ -8,6 +8,11 @@ Esta guía le ayudará a conocer mejor arch linux, desde personalizar, como paqu
 
 información: [Ir a información.](#información)
 
+### Inicio
+
+* [Que es Arch Linux](./)
+
+
 ### 0. Instalación
 
 * [Ir a Instalar Arch](./0.instalacion/0.instalacion.md)
