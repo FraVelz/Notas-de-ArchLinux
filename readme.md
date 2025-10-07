@@ -10,8 +10,7 @@ información: [Ir a información.](#información)
 
 ### Inicio
 
-* [Que es Arch Linux](./)
-
+* [Que es Arch Linux](./conceptos.md)
 
 ### 0. Instalación
 
@@ -71,6 +70,6 @@ Esta guía es una guía, no un curso. Tener muy en cuenta eso.
 
 ## Información
 
-**Actualización:** 0.0.5
+**Actualización:** 0.0.6
 
 **Autor:** Fravelz
