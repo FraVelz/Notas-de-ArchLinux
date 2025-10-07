@@ -16,7 +16,7 @@ información: [Ir a información.](#información)
 
 * [Ir a Instalar Arch](./0.instalacion/0.instalacion.md)
 
-* [Instalar 2](./0.Install/1.install.md)
+* [Ir a Paquetes en Arch](./0.instalacion/1.paquetes.md)
 
 * [Comandos](./0.Install/2.commands.md)
 

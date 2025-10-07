@@ -28,7 +28,7 @@ Ten en cuenta que hay tres maneras de instalar un nuevo sistema operativo:
 
 * Todas las formas de instalar tienen muchas similitudes, pero antes de comenzar tener en cuenta que la configuración al ser por consola, puede llegar a ser extremadamente difícil a las personas que no tengan conocimiento en linux.
 
-* también tener en cuenta que personalizar linux puede llegar a gastar mucho tiempo y energía, pero puedes optar por configurar opciones pre-hechas y no hacer todo desde cero, pudiendo instalar por ejemplo un escritorio completo como lo es gnome, y muchos más.
+* También tener en cuenta que personalizar linux puede llegar a gastar mucho tiempo y energía, pero puedes optar por configurar opciones pre-hechas y no hacer todo desde cero, pudiendo instalar por ejemplo un escritorio completo como lo es gnome, y muchos más.
 
 [Ir a el manual de instalación](./0.instalacion/0.instalacion.md)
 
